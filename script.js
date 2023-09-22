@@ -31,7 +31,6 @@ function validateRadios() {
 }
 validateRadios();
 
-// source: https://rozolin.blogspot.com/2013/07/como-pegar-o-valor-do-radio-selecionado.html?m=1
 function getRadioValue() {
   const radios = document.getElementsByName('gender');
   for (let index = 0; index < radios.length; index += 1) {
